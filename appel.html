@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Appel des numéros</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+    <script src="appel.js"></script>
+    <script src="https://gristlabs.github.io/grist-form-submit/grist-form-submit.js"></script>
+  </head>
+  <body>
+  <section class="section">
+    <div class="container">
+      <h1 class="title">
+	Appel des numéros
+      </h1>
+      
+      <button id="bouton" class="button is-primary">
+      Appeler
+      </button>
+      <table class="table" id="prochains">
+	<thead>
+	  <tr>
+	    <td>numéro</td>
+	    <td>nom</td>
+	  </tr>
+	</thead>
+	<tbody>
+	  <!-- existing data could optionally be included here -->
+	</tbody>
+      </table>
+
+      <template id="souhait">
+	<tr>
+	  <td class="record"></td>
+	  <td></td>
+	</tr>
+      </template>
+
+    </div>
+  </section>
+  </body>
+</html>
