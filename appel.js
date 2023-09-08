@@ -32,7 +32,7 @@ function populate() {
 function setupBouton(numero) {
   const bouton = document.querySelector("button")
   bouton.dataset.numero = numero;
-  bouton.innerHTML = 'Appeler le n°' + numero ;
+  bouton.innerHTML = 'J\'appelle le n° suivant.' ;
   bouton.classList.remove('is-light')
 }
 
